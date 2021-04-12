@@ -123,6 +123,7 @@ img {
   left: 0px;
   width: 100%;
   background-color: var(--accent-color--);
+  border-radius: 4px;
 }
 .logo-header {
   font-family: Raleway, sans-serif;
@@ -151,7 +152,7 @@ img {
   display: block;
 }
 .nav-link {
-  padding-bottom: 29px;
+  padding-bottom: 32px;
 }
 .list {
   text-decoration: none;
