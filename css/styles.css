@@ -94,6 +94,7 @@ img {
 }
 .current {
   color: var(--accent-color--);
+  padding: 28px;
 }
 /*.current::after {
   background-image: url(./images/sprite.svg#icon-line);
@@ -117,11 +118,11 @@ img {
 .current::after {
   content: "";
   height: 4px;
-  fill: currentColor;
   position: absolute;
   bottom: 0px;
   left: 0px;
   width: 100%;
+  background-color: var(--accent-color--);
 }
 .logo-header {
   font-family: Raleway, sans-serif;
@@ -151,6 +152,7 @@ img {
 }
 .list-item {
   position: relative;
+  display: block;
 }
 .list {
   text-decoration: none;
