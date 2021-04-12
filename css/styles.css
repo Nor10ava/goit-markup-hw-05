@@ -94,7 +94,7 @@ img {
 }
 .current {
   color: var(--accent-color--);
-  padding: 28px;
+  position: relative;
 }
 /*.current::after {
   background-image: url(./images/sprite.svg#icon-line);
@@ -150,9 +150,8 @@ img {
   align-items: center;
   display: block;
 }
-.list-item {
-  position: relative;
-  display: block;
+.nav-link {
+  padding-bottom: 29px;
 }
 .list {
   text-decoration: none;
